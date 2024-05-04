@@ -1,5 +1,5 @@
 # Use a base image with Java 8 installed
-FROM openjdk:8-jdk-alpine
+FROM openjdk:17-oracle
 
 # Set the working directory inside the container
 WORKDIR /app
