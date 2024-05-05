@@ -8,4 +8,4 @@ WORKDIR /app
 COPY target/hello-world-0.0.1-SNAPSHOT.jar /app/hello-world-0.0.1-SNAPSHOT.jar
 
 # Specify the command to run your Spring Boot application when the container starts
-CMD ["java", "-jar", "your-application.jar"]
+CMD ["java", "-jar", "hello-world-0.0.1-SNAPSHOT.jar"]
