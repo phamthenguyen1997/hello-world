@@ -27,3 +27,4 @@ hs_err_pid*
 replay_pid*
 .factorypath
 *.bat
+/.idea/git_toolbox_prj.xml
